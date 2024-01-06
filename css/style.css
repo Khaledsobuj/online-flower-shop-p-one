@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1420px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* some common css*/
+.btn-comon {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+}
+
+/* some common css*/
+
+/* This is section one Styles start  */
+#section_one {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container .content-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.content-item .item-heading h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.item-heading {
+    width: 650px;
+    /* padding: 20px; */
+}
+
+.content-item .item-heading p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 35px 0;
+}
+
+.heading-img {
+    width: 600px;
+    margin-top: 230px;
+}
+
+.heading-img img {
+    width: 100%;
+}
+
+
+
+
+/* This is section one Styles end */
