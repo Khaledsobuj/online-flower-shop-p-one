@@ -236,3 +236,30 @@ section {
     width: 80%;
     flex-wrap: 1;
 }
+
+.foter-wreper {
+    background: #111010;
+    padding: 128px;
+}
+
+.foter-wreper .fot-heding {
+    color: #E55473;
+}
+
+.fot-heding .shop {
+    color: #FFF;
+}
+
+.flowers-heading-item .hei-dec {
+    color: rgba(255, 255, 255, 0.90);
+
+}
+
+.foter-wreper>p {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+
+}
