@@ -83,7 +83,6 @@ section {
 
 .flowers-heading-item {
     text-align: center;
-
     width: 50%;
     margin: 0 auto;
 }
@@ -109,12 +108,14 @@ section {
     justify-content: space-evenly;
     gap: 25px;
     margin-top: 50px;
+
 }
 
 .flowers-item-wraper .pink {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     width: 465px;
+
 }
 
 .flowers-item-wraper .green {
@@ -157,4 +158,81 @@ section {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
+}
+
+/* ============================= */
+#section-four {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.desc-wreper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.item-content {
+    width: 600px
+}
+
+.item-content h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.item-content h2 span {
+    color: #E55473;
+}
+
+.item-content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px 0px;
+}
+
+.div-item-wriper {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.div-1,
+.div-2,
+.div-3,
+.div-4 {
+    width: 340px;
+    margin-top: 48px;
+}
+
+.div-1,
+.div-2,
+.div-3,
+.div-4 {
+    width: 100%;
+}
+
+.cong-bg {
+    background-image: url('../images/rectangle 9.png');
+    background-position: center;
+    background-size: cover;
+    padding: 135px;
+
+}
+
+.cong-bg form {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+
+}
+
+.cong-bg form input {
+    width: 80%;
+    flex-wrap: 1;
 }
